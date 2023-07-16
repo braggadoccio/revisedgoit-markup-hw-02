@@ -1,83 +1,140 @@
+/* CSS Variables */
+
+:root {
+    --primary-text-color: #2e2f42;
+    --primary-white-color:#F4F4FD;
+    --primary-blue-color: #4D5AE5; 
+    --primary-gray-color: #434455;
+    --primary-background color: #fff;
+    --secondary-background-color: #2e2f42;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* General Elements */
+
+.list {
+    list-style: none;
+}
+
+
+.title {
+  color: white;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 1.12px;
+}
+
+.section-title {
+  color: var(--primary-text-color);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.item-title {
+  color: var(--primary-text-color);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+.item-text {
+  color: var(--primary-gray-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.button {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+
+/* Header Section */
+
 .header {
+    background-color: var(--primary-white-color);
 }
 
 .header-navigation {
+
 }
 
-.header-logo {
-}
+.header-link {
+    text-decoration: none;
+    color: var(--primary-gray-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.32px;
+  }
+
 
 .header-list {
-}
-
-.header-item {
+    list-style: none;
 }
 
 .header-address {
-}
-
-.header-address-list {
+    color: var(--primary-gray-color);
 }
 
 .header-address-link {
+    text-decoration: none;
+    color: inherit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.32px;
+}
+
+.logo {
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+
 }
 
 .hero {
-}
-
-.hero-title {
-}
-
-.hero-button {
-}
-
-.goals {
-}
-
-.goals-list {
-}
-
-.goals-item {
-}
-
-.goals-item-title {
-}
-
-.goals-item-text {
-}
-
-.services {
-}
-
-.services-title {
-}
-
-.services-list {
-}
-
-.services-item {
-}
-
-.team {
-}
-
-.team-title {
-}
-
-.team-item {
-}
-
-.team-item-title {
-}
-
-.team-item-text {
+    background-color: var(--primary-text-color);
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0
 }
 
 .footer {
-}
-
-.footer-link {
+    background-color: var(--primary-text-color);
+    width: 1440px;
+    height: 312px;
+    flex-shrink: 0;
 }
 
 .footer-text {
+    color: var(--primary-white-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
 }
