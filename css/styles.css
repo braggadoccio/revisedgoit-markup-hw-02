@@ -19,12 +19,9 @@ body {
     list-style: none;
 }
 
-
 .title {
   color: white;
   font-size: 56px;
-  font-style: normal;
-  font-weight: 700;
   line-height: 60px;
   letter-spacing: 1.12px;
 }
@@ -32,8 +29,6 @@ body {
 .section-title {
   color: var(--primary-text-color);
   font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.72px;
   text-transform: capitalize;
@@ -42,8 +37,6 @@ body {
 .item-title {
   color: var(--primary-text-color);
   font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
 }
@@ -51,18 +44,20 @@ body {
 .item-text {
   color: var(--primary-gray-color);
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
 }
 
 .button {
   font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--primary-blue-color);
 }
 
 /* Header Section */
@@ -77,14 +72,16 @@ body {
 
 .header-link {
     text-decoration: none;
-    color: var(--primary-gray-color);
+    color: var(--primary-text-color);
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 24px; 
     letter-spacing: 0.32px;
   }
 
+.header-link:hover,
+.header-link:focus {
+  color: var(--primary-blue-color);
+}
 
 .header-list {
     list-style: none;
@@ -99,21 +96,27 @@ body {
     color: inherit;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
     line-height: 24px; 
     letter-spacing: 0.32px;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+  color: var(--primary-blue-color)
 }
 
 .logo {
     text-decoration: none;
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 21px; /* 116.667% */
+    line-height: 21px; 
     letter-spacing: 0.54px;
     text-transform: uppercase;
+}
 
+.logo:hover,
+.logo:focus {
+  color: orange;
 }
 
 .hero {
@@ -133,8 +136,6 @@ body {
 .footer-text {
     color: var(--primary-white-color);
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
 }
