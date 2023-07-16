@@ -1,12 +1,12 @@
 /* CSS Variables */
 
 :root {
-    --primary-text-color: #2e2f42;
-    --primary-white-color:#F4F4FD;
-    --primary-blue-color: #4D5AE5; 
-    --primary-gray-color: #434455;
-    --primary-background color: #fff;
-    --secondary-background-color: #2e2f42;
+  --primary-text-color: #2e2f42;
+  --primary-white-color: #f4f4fd;
+  --primary-blue-color: #4d5ae5;
+  --primary-gray-color: #434455;
+  --primary-background-color: #fff;
+  --secondary-background-color: #2e2f42;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 /* General Elements */
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .title {
@@ -48,35 +48,50 @@ body {
   letter-spacing: 0.32px;
 }
 
-.button {
+.hero-button {
+  background-color: var(--primary-blue-color);
+  color: var(--primary-background-color);
+
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.64px;
   cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
-  color: var(--primary-blue-color);
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--primary-gray-color);
 }
 
+.buttons-button {
+  background-color: var(--primary-white-color);
+  color: var(--primary-blue-color);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+
+.buttons-button:hover,
+.buttons-button:focus {
+  color: var(--primary-gray-color);
+}
 /* Header Section */
 
 .header {
-    background-color: var(--primary-white-color);
+  background-color: var(--primary-white-color);
 }
 
 .header-navigation {
-
 }
 
 .header-link {
-    text-decoration: none;
-    color: var(--primary-text-color);
-    font-size: 16px;
-    line-height: 24px; 
-    letter-spacing: 0.32px;
-  }
+  text-decoration: none;
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
 
 .header-link:hover,
 .header-link:focus {
@@ -84,34 +99,34 @@ body {
 }
 
 .header-list {
-    list-style: none;
+  list-style: none;
 }
 
 .header-address {
-    color: var(--primary-gray-color);
+  color: var(--primary-gray-color);
 }
 
 .header-address-link {
-    text-decoration: none;
-    color: inherit;
-    font-size: 16px;
-    font-style: normal;
-    line-height: 24px; 
-    letter-spacing: 0.32px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
 
 .header-address-link:hover,
 .header-address-link:focus {
-  color: var(--primary-blue-color)
+  color: var(--primary-blue-color);
 }
 
 .logo {
-    text-decoration: none;
-    font-family: Raleway;
-    font-size: 18px;
-    line-height: 21px; 
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 
 .logo:hover,
@@ -120,22 +135,22 @@ body {
 }
 
 .hero {
-    background-color: var(--primary-text-color);
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0
+  background-color: var(--primary-text-color);
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
 }
 
 .footer {
-    background-color: var(--primary-text-color);
-    width: 1440px;
-    height: 312px;
-    flex-shrink: 0;
+  background-color: var(--primary-text-color);
+  width: 1440px;
+  height: 312px;
+  flex-shrink: 0;
 }
 
 .footer-text {
-    color: var(--primary-white-color);
-    font-size: 16px;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
+  color: var(--primary-white-color);
+  font-size: 16px;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
