@@ -123,11 +123,11 @@ body {
 }
 
 .studio-footer {
-  color: var (var(--cloud));
+  color: var(--cloud);
 }
 
 .footer-description {
-  color: var (var(--cloud));
+  color: var(--cloud);
 }
 
 .button {
